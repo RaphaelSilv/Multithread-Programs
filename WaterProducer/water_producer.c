@@ -68,8 +68,6 @@ void *hydrogen_thread(void *input) {
 
     pthread_barrier_wait (&barrier);
 
-    pthread_mutex_unlock(&mutex);
-
     return 0;
 }
 
